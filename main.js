@@ -36,3 +36,27 @@ if(mood === "sleepy" && tirednessLevel > 8){
 }else {
     console.log("not bed time yet");
 } // Prints not bed time yet
+
+//Truthy and Falsy
+
+let numberOfApples = 0;
+if(numberOFApples){
+    console.log("Lets eat apple");
+}else{
+    console.log("No apples left");
+}; //Prints No apples left
+
+let newTelly = "Its new";
+if(newTelly){
+    console.log("Its on");
+
+}else{
+    console.log("Its not on");
+}; //Prints its on
+
+let highChair;
+if(highChair){
+ console.log("It exists");
+}else{
+    console.log("its null");
+}; //Prints its null
