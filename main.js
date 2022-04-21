@@ -60,3 +60,28 @@ if(highChair){
 }else{
     console.log("its null");
 }; //Prints its null
+
+//Truthy and Falsy Assignment
+
+let userName = "";
+let defaultName;
+if(userName){
+    defaultName = userName;
+
+}else{
+    defaultName = "Stranger";
+};
+
+console.log(defaultName); //Prints Stranger
+
+//In a boolean condition, JavaScript assigns the truthy value to a variable if you use the || operator in your assignment
+
+let userName = "";
+defaultName = userName || "Stranger";
+console.log(defaultName); //prints Stranger
+
+//however if userName is assigned a value of Chike
+
+let userName = "Chike";
+defaultName = userName || "Stranger";
+console.log(defaultName); //Prints Chike
