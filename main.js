@@ -120,3 +120,18 @@ if (favoritePhrase === 'Love That!') {
 
 //using ternary
 favoritePhrase === "Love That!" ? console.log("I love that!") : console.log("I don't love that!");
+
+// Else If Statements
+
+let season = "summer";
+
+if (season === "fall"){
+    console.log("Leaves are falling");
+}else if(season === "winter"){
+    console.log("Its snowing!");
+}else if (season === "summer"){
+    console.log ("Suns out...Guns out!")
+}
+else {
+    console.log("Season invalid")
+}//Prints Suns out...Guns out!
