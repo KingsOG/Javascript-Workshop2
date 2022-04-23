@@ -135,3 +135,25 @@ if (season === "fall"){
 else {
     console.log("Season invalid")
 }//Prints Suns out...Guns out!
+
+//.The switch keyword
+
+//Let’s write a switch statement to decide what medal to award an athlete.
+
+let athleteFinalPosition = "first place";
+
+switch(anthleteFinalPosition){
+    case "third place":
+        console.log("You get the bronze medal!");
+    break;
+    case "second place":
+        console.log("You get the silver medal!");
+    break;
+    case "first place":
+        console.log("You get the gold medal!");
+    break;
+    default:
+        console.log("No medal awarded."); 
+    break;       
+
+} //Prints You get the gold medal!
